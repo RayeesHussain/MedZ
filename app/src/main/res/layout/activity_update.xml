@@ -8,22 +8,7 @@
     tools:context=".Act2">
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/bottom_background"
-        android:elevation="2dp"
-        app:itemIconSize="30dp"
-        app:itemIconTint="@drawable/item_selector"
-        app:itemRippleColor="@android:color/transparent"
-        app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/bottom_menu" />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -44,24 +29,24 @@
                 android:textColor="@color/black"
                 android:textSize="34dp" />
 
-            <TextView
-                android:layout_width="140dp"
-                android:layout_height="40dp"
-                android:text="Pill ID:"
-                android:textAlignment="gravity"
-                android:textColor="@color/black"
-                android:textSize="30dp"
-                >
+<!--            <TextView-->
+<!--                android:layout_width="140dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:text="Pill ID:"-->
+<!--                android:textAlignment="gravity"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30dp"-->
+<!--                >-->
 
-            </TextView>
+<!--            </TextView>-->
 
-            <EditText
-                android:id="@+id/t0"
-                android:layout_width="350dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
-                android:hint="pill ID"
-                android:textAlignment="gravity" />
+<!--            <EditText-->
+<!--                android:id="@+id/t002"-->
+<!--                android:layout_width="350dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:hint="pill ID"-->
+<!--                android:textAlignment="gravity" />-->
 
 
 
@@ -78,7 +63,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/t1"
+                android:id="@+id/t12"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -96,7 +81,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/t2"
+                android:id="@+id/t22"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -114,7 +99,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/t21"
+                android:id="@+id/t212"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -132,7 +117,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/t3"
+                android:id="@+id/t32"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -151,7 +136,7 @@
             </TextView>
 
             <EditText
-                android:id="@+id/start_date"
+                android:id="@+id/start_date2"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
@@ -168,17 +153,16 @@
                 >
 
             </TextView>
-
             <EditText
-                android:id="@+id/stop_date1"
+                android:id="@+id/stop_date2"
+
                 android:layout_width="350dp"
                 android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
+                android:textAlignment="gravity"
                 android:hint="choose stop date (eg-pills)"
-                android:textAlignment="gravity" />
-
+                android:layout_marginLeft="30dp"/>
             <TextView
-                android:id="@+id/select_time"
+                android:id="@+id/select_time2"
                 android:layout_width="215dp"
                 android:layout_height="40dp"
                 android:text="Time:"
@@ -189,7 +173,7 @@
 
             </TextView>
             <EditText
-                android:id="@+id/time1"
+                android:id="@+id/time12"
                 android:layout_width="350dp"
                 android:layout_height="50dp"
                 android:textAlignment="gravity"
@@ -199,22 +183,40 @@
         </LinearLayout>
 
     </ScrollView>
+
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button42"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="120dp"
-        android:layout_marginLeft="80dp"
         android:background="#2196F3"
         android:onClick="done"
-        android:text="done"
+        android:text="update"
         android:textAllCaps="true"
 
 
         android:textColor="@color/white" />
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="60dp"
+        android:background="#2196F3"
+        android:onClick="done"
+        android:text="delete"
+        android:textAllCaps="true"
+
+
+        android:textColor="@color/white" />
+
 
 
 </RelativeLayout>
