@@ -8,4 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#d2d2d2</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="recyclerViewItemSelectionColor">#50FF4081</color>
+    <color name="mediumEmphasisTextColor">#99000000</color>
+    <color name="highEmphasisTextColor">#de000000</color>
+    <color name="black_overlay">#66000000</color>
 </resources>

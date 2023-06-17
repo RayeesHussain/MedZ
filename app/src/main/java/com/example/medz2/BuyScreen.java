@@ -112,7 +112,7 @@ public class BuyScreen extends AppCompatActivity {
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
                 // on recycler view item swiped then we are deleting the item of our recycler view.
                 viewmodal.delete(adapter.getCourseAt(viewHolder.getAdapterPosition()));
-                Toast.makeText(BuyScreen.this, "Course deleted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(BuyScreen.this, "Medicine deleted", Toast.LENGTH_SHORT).show();
             }
         }).
                 // below line is use to attach this to recycler view.
@@ -146,11 +146,11 @@ public class BuyScreen extends AppCompatActivity {
 
             BuyModal model = new BuyModal(pillName,pillQuantity);
             viewmodal.insert(model);
-            Toast.makeText(this, "Course saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Medicine saved", Toast.LENGTH_SHORT).show();
         } else if (requestCode == EDIT_COURSE_REQUEST && resultCode == RESULT_OK) {
             int id = data.getIntExtra(NewBuyActivity.EXTRA_ID, -1);
             if (id == -1) {
-                Toast.makeText(this, "Course can't be updated", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Medicine can't be updated", Toast.LENGTH_SHORT).show();
                 return;
             }
             String pillName = data.getStringExtra(NewBuyActivity.EXTRA_PILL_NAME);
@@ -159,9 +159,9 @@ public class BuyScreen extends AppCompatActivity {
             BuyModal model = new BuyModal(pillName,pillQuantity);
             model.setId(id);
             viewmodal.update(model);
-            Toast.makeText(this, "Course updated", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Medicine updated", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Course not saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Medicine not saved", Toast.LENGTH_SHORT).show();
         }
     }
 }

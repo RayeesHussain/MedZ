@@ -2,24 +2,23 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterPage">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="236dp"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="65dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
-        android:layout_marginBottom="130dp"
-        android:ems="10"
-        android:hint="Role"
-        android:inputType="textPersonName" />
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="105dp"
+        app:srcCompat="@drawable/baseline_password_24" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/password1"
         android:layout_width="238dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -31,7 +30,19 @@
         android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/password2"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="117dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/usernames"
         android:layout_width="242dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -114,13 +125,4 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="14dp" />
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="69dp"
-        android:layout_height="65dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="306dp"
-        android:layout_marginBottom="113dp"
-        app:srcCompat="@drawable/baseline_supervised_user_circle_24" />
 </RelativeLayout>

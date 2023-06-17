@@ -161,7 +161,7 @@ public class ReminderActivity extends AppCompatActivity {
         try {
             Date date1 = formatter.parse(dateandtime);
             am.set(AlarmManager.RTC_WAKEUP, date1.getTime(), pendingIntent);
-            Toast.makeText(getApplicationContext(), "Alaram", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Alarm", Toast.LENGTH_SHORT).show();
 
         } catch (ParseException e) {
             e.printStackTrace();

@@ -56,7 +56,7 @@ public class NewBuyActivity extends AppCompatActivity {
                 String pillName = pillNameEdt.getText().toString();
                 String pillQuantity = pillQuanEdt.getText().toString();
                 if (pillName.isEmpty() || pillQuantity.isEmpty() ) {
-                    Toast.makeText(NewBuyActivity.this, "Please enter the valid course details.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(NewBuyActivity.this, "Please enter the valid Medicine details.", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 // calling a method to save our course.
@@ -89,6 +89,6 @@ public class NewBuyActivity extends AppCompatActivity {
         setResult(RESULT_OK, data);
 
         // displaying a toast message after adding the data
-        Toast.makeText(this, "Course has been saved to Room Database. ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Medicine has been saved to  Database. ", Toast.LENGTH_SHORT).show();
     }
 }

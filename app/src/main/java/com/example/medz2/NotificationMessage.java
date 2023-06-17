@@ -32,7 +32,7 @@ public class NotificationMessage extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();                                                    //call the data which is passed by another intent
         textView.setText(bundle.getString("message"));
         b1=findViewById(R.id.button6);
-       // b2=findViewById(R.id.button5);
+        b2=findViewById(R.id.button7);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,14 +43,16 @@ public class NotificationMessage extends AppCompatActivity {
 
             }
         });
-//        b2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                confirmDialog();
-//
-//
-//            }
-//        });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1=new Intent(NotificationMessage.this,ScheduleScreen.class);
+                startActivity(intent1);
+                finish();
+
+
+            }
+        });
 
 
     }
