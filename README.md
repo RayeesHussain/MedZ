@@ -20,7 +20,7 @@ The features of the project is as follows:
 
 ## Screenshots
 
-p align = "center"><img src="https://drive.google.com/file/d/1nXXFlF9mNLtFabnSlAUNXuS3Dn2Kk5NA/view?usp=sharing" ></p>
+<p align = "center"><img src="https://drive.google.com/file/d/1nXXFlF9mNLtFabnSlAUNXuS3Dn2Kk5NA/view?usp=sharing" ></p>
 
 
 ## Tech Stack
