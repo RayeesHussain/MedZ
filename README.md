@@ -17,10 +17,11 @@ The features of the project is as follows:
 - **The ability to set reminders for the appointments:** The app allows you to set reminders for the appointments with doctors. The reminders should be customizable, so that you can specify the time and date of the reminder.
 - **The ability to maintain a database for the medicines to buy:** The app allows the users to maintain a database of the medicines to buy. It helps the user to refer the medicines that they need to buy when they visit the pharmacy shop for the purchase.
 
-
+<!--
 ## Screenshots
 
 <p align = "center"><img src="https://drive.google.com/file/d/1nXXFlF9mNLtFabnSlAUNXuS3Dn2Kk5NA/view?usp=sharing" ></p>
+-->
 
 
 ## Tech Stack
