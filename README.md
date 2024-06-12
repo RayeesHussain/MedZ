@@ -20,7 +20,7 @@ The features of the project is as follows:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://drive.google.com/file/d/1oBL1zmb5QLHR5bm2VJyhl6HL6hAZmh-X/view?usp=drive_link)
 
 
 ## Tech Stack
