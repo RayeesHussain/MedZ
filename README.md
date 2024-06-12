@@ -1,8 +1,9 @@
 
 # MedZ
 
+<p align="center">
 MedZ is a mobile application designed to help users remember to take their medications on time by allowing them to create a list of their medications, including dosages, and sending notifications at appropriate times. It is particularly useful for individuals who struggle with remembering their medication schedules, those who take multiple medications, or those who need to take medications at different times of the day.
-
+</p>
 
 <p align = "center"><img src="app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" ></p>
 
